@@ -32,3 +32,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+### Next.JS Server-Side Data Fetching ###
+
+ NextJS allows us to fetch data and render HTML on the server. The benefit of that is that the end user gets rendered content quicker and the content can be found by search and social media bots.
+
+ When it comes to server rendering there are two main options:
+
+ Static Generation (SSG) - render all HTML pages at build time 
+ Drawbacks: data may become stale, hard to scale to many pages   
+
+ Server-side rendering (SSR) - generate each page at request time
+ The content is generated on a server when requested by the user. Ideal for pages when the data changes constantly.
+ Drawbacks: slower, inefficient data caching
